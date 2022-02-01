@@ -6,6 +6,7 @@ const methodOverride = require('method-override')
 const router = require('./router/routes')
 const bodyParser = require('body-parser')
 const app = express()
+require('./conn')
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(flash())
