@@ -19,3 +19,5 @@ $ npm run dev
 ```
 
 ### MongoDB
+
+Open "conn.js" and add your MongoDB URI, local or Atlas
